@@ -1,0 +1,5 @@
+code,codein,name,high,low,varBid,pctChange,bid,ask,timestamp,create_date
+USD,BRL,Dólar Americano/Real Brasileiro,5.08,5.0518,0.0011,0.02,5.0737,5.0748,1675263202,2023-02-01 11:53:22
+EUR,BRL,Euro/Real Brasileiro,5.5403,5.5058,0.0246,0.45,5.5334,5.5366,1675263196,2023-02-01 11:53:16
+BRL,USD,Real Brasileiro/Dólar Americano,0.198,0.1969,0,-0.01,0.197,0.1971,1675263196,2023-02-01 11:53:16
+BRL,EUR,Real Brasileiro/Euro,0.1816,0.1806,-0.0007,-0.38,0.1806,0.1807,1675263183,2023-02-01 11:53:03

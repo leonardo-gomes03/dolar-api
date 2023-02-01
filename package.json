@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "csv-writer": "^1.6.0",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2",
+    "papaparse": "^5.3.2",
+    "request": "^2.88.2",
+    "uuid": "^9.0.0"
+  }
+}
