@@ -22,12 +22,21 @@ async function getApi() {
         const [headers] = arrayData.map((item) => Object.keys(item));
         const headersText = `${headers.join(",")}\n`;
         const pathFile = path.join(__dirname, "cotaçãoatual.csv");
+        const newData = "Nova cotação atual";
+
+        fs.writeFile(pathFile, newData, (error) => {
+            if (error) {
+                console.error(error);
+                return;
+            }
+            console.log("Arquivo sobreescrito com sucesso.");
+        });
+
 
         fs.writeFileSync(pathFile, headersText);
         const cotacao = arrayData.map((item) =>
-          Object.values(item).join(",")
+            Object.values(item).join(",")
         );
-        console.log("cotacao", cotacao);
         fs.writeFileSync(pathFile, cotacao.join("\n"), { flag: "a" });
 
         table.push([post.codein, post.code, post.bid]);
